@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.47.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "dependencies": {
+    "@serenity-js/assertions": "^3.28.0",
+    "@serenity-js/core": "^3.28.0",
+    "@serenity-js/web": "^3.28.0"
+  }
+}
