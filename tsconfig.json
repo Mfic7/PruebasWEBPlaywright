@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "strict": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true
-  },
-  "include": [
-    "src/**/*.ts"
-  ]
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",  // Ajusta según la estructura de tu proyecto
+    "paths": {
+      "*": ["src/*"]  // Ajusta según la estructura de tu proyecto
+    }
+  }
 }
