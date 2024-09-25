@@ -5,7 +5,7 @@ Feature: Add User
     When hago clic en el menú Admin
     And hago clic en el botón Añadir
     And selecciono el rol "Admin" del desplegable
-    And completo el nombre del empleado "James Butler"
+    And completo el nombre del empleado "Peter Mac Anderson"
     And selecciono el estado "Enabled" del desplegable
     And completo el nombre de usuario "Yesbys"
     And completo la contraseña "Bruno4501."
